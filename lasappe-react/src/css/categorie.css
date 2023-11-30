@@ -1,0 +1,22 @@
+.category-add {
+    background-color: white;
+}
+
+form {
+    margin: 0 auto;
+    width: 210px;
+}
+
+.h1cat {
+    margin: 0 auto;
+    width: 210px;
+
+
+}
+
+input , select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+

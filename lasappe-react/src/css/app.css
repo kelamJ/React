@@ -1,0 +1,8 @@
+@import './home.css';
+@import "menu.css";
+@import "categorie.css";
+@import "produit.css";
+
+body {
+    background-color: #edc9af;
+}
