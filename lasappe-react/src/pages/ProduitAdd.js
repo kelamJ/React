@@ -11,7 +11,7 @@ export default function ProduitAdd() {
                     <br/>
                     <label htmlFor={"pro-desc"}>Description :</label>
                     <br/>
-                    <input type="text" placeholder={"Description du produit"} name={"pro-desc"} id={"pro-desc"} />
+                    <textarea type="text" placeholder={"Description du produit"} name={"pro-desc"} id={"pro-desc"} />
                     <br/>
                     <label htmlFor={"pro-img"}>Image produit:</label>
                     <br/>
@@ -29,7 +29,7 @@ export default function ProduitAdd() {
                     <br/>
                     <input type="text" placeholder={"Prix vente du produit"} name={"prix-vente"} id={"prix-vente"} />
                     <br/>
-                    <input type="submit" value={"Ajouter Catégorie"} />
+                    <input type="submit" value={"Ajouter Produit"} />
                 </form>
             </div>
         </div>

@@ -25,7 +25,7 @@ export default function CategorieAdd() {
                     <br/>
                     <label htmlFor={"cat-desc"}>Description :</label>
                     <br/>
-                    <input type="text" placeholder={"Description de la catégorie"} name={"cat-desc"} id={"cat-desc"} />
+                    <textarea type="text" placeholder={"Description de la catégorie"} name={"cat-desc"} id={"cat-desc"} />
                     <br/>
                     <label htmlFor={"cat-img"}>Image catégorie:</label>
                     <br/>

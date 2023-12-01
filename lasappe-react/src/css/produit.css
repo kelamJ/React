@@ -9,7 +9,7 @@ form {
     width: 210px;
 }
 
-input , select{
+input , select, textarea{
     margin-top: 10px;
     margin-bottom: 10px;
     width: 300px;
