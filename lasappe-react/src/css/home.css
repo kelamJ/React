@@ -1,5 +1,7 @@
 .home {
-    background-color: #704d32;
+    background: rgba(217, 217, 217, 0.58);
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
     padding: 20px;
     color: #fff;
     text-align: center;

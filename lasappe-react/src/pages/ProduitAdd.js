@@ -1,37 +1,30 @@
 import React, { useState } from "react";
 export default function ProduitAdd() {
     return (
+        <>
+        <h1 className={"hover-effect"}>Ajouter un produit</h1>
+    <div className="card">
         <div className="produit-add">
-            <h1 className={"h1pro"}>Produits</h1>
             <div>
                 <form>
-                    <label htmlFor={"pro-nom"}>Nom :</label>
-                    <br/>
                     <input type="text" placeholder={"Nom du produit"} name={"pro-nom"} id={"pro-nom"} />
-                    <br/>
-                    <label htmlFor={"pro-desc"}>Description :</label>
                     <br/>
                     <textarea type="text" placeholder={"Description du produit"} name={"pro-desc"} id={"pro-desc"} />
                     <br/>
-                    <label htmlFor={"pro-img"}>Image produit:</label>
+                    <input type="number" placeholder={"Stock "} name={"pro-stock"} id={"pro-stock"} />
+                    <br/>
+                    <input type="number" placeholder={"Prix d'achat en €"} name={"prix-achat"} id={"prix-achat"} />
+                    <br/>
+                    <input type="number" placeholder={"Prix vente en €"} name={"prix-vente"} id={"prix-vente"} />
                     <br/>
                     <input type="file" name={"pro-img"} id={"pro-img"}/>
                     <br/>
-                    <label htmlFor={"pro-stock"}>Stock produit :</label>
-                    <br/>
-                    <input type="text" placeholder={"Stock du produit"} name={"pro-stock"} id={"pro-stock"} />
-                    <br/>
-                    <label htmlFor={"prix-achat"}>Prix d'achat du produit :</label>
-                    <br/>
-                    <input type="text" placeholder={"Prix d'achat du produit"} name={"prix-achat"} id={"prix-achat"} />
-                    <br/>
-                    <label htmlFor={"prix-vente"}>Prix d'achat du produit :</label>
-                    <br/>
-                    <input type="text" placeholder={"Prix vente du produit"} name={"prix-vente"} id={"prix-vente"} />
-                    <br/>
-                    <input type="submit" value={"Ajouter Produit"} />
+                    <input className={"button"} type="submit" value={"Ajouter Produit"} />
                 </form>
             </div>
         </div>
+        </div>
+        </>
+
     )
 }
