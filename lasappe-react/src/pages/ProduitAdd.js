@@ -7,23 +7,35 @@ export default function ProduitAdd() {
         <div className="produit-add">
             <div>
                 <form>
-                    <input type="text" placeholder={"Nom du produit"} name={"pro-nom"} id={"pro-nom"} />
+                    <div className="textInputWrapper">
+                        <input placeholder={"Nom du produit"} type="text" name={"pro-nom"} id={"pro-nom"}
+                               className="textInput"/>
+                    </div>
                     <br/>
-                    <textarea type="text" placeholder={"Description du produit"} name={"pro-desc"} id={"pro-desc"} />
+                    <textarea type="text" placeholder={"Description du produit"} className={"cat-desc"} id={"pro-desc"}/>
                     <br/>
-                    <input type="number" placeholder={"Stock "} name={"pro-stock"} id={"pro-stock"} />
+                    <div className="textInputWrapper">
+                        <input placeholder={"Nombre en stock "} type="number" name={"pro-stock"} id={"pro-stock"}
+                               className="textInput"/>
+                    </div>
                     <br/>
-                    <input type="number" placeholder={"Prix d'achat en €"} name={"prix-achat"} id={"prix-achat"} />
+                    <div className="textInputWrapper">
+                        <input type="number" placeholder={"Prix d'achat en €"} name={"prix-achat"} id={"prix-achat"}
+                               className="textInput"/>
+                    </div>
                     <br/>
-                    <input type="number" placeholder={"Prix vente en €"} name={"prix-vente"} id={"prix-vente"} />
+                    <div className="textInputWrapper">
+                        <input type="number" placeholder={"Prix vente en €"} name={"prix-vente"} id={"prix-vente"}
+                               className="textInput"/>
+                    </div>
                     <br/>
                     <input type="file" name={"pro-img"} id={"pro-img"}/>
                     <br/>
-                    <input className={"button"} type="submit" value={"Ajouter Produit"} />
+                    <input className={"button"} type="submit" value={"Ajouter Produit"}/>
                 </form>
             </div>
         </div>
-        </div>
+    </div>
         </>
 
     )

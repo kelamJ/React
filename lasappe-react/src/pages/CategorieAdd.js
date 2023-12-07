@@ -12,20 +12,22 @@ export default function CategorieAdd() {
             <div className="card">
                 <div className={"categorie-add"}>
                     <form>
-                        <input type="text" placeholder={"Nom de la catégorie"} name={"cat-nom"} id={"cat-nom"} />
+                        <div className="textInputWrapper">
+                            <input placeholder="Nom de la catégorie" type="text" name={"cat-nom"} id={"cat-nom"} className="textInput"/>
+                        </div>
                         <br/>
-                        <select name={"cat-parent"} id={"cat-parent"}>
+                        <select name={"cat-parent"} id={"cat-parent"} className="custom-select">
                             <option value={""}>Sélectionner une catégorie</option>
                             <option value={"Homme"}>Homme</option>
                             <option value={"Femme"}>Femme</option>
                         </select>
                         <br/>
-                        <textarea type="text" placeholder={"Description de la catégorie"} name={"cat-desc"} id={"cat-desc"} />
+                        <textarea type="text" placeholder={"Description de la catégorie"} className={"cat-desc"} id={"cat-desc"}/>
                         <br/>
                         <input type="file" name={"cat-img"} id={"cat-img"}/>
-                        <img src={file} />
+                        <img src={file}/>
                         <br/>
-                        <input className={"button"} type="submit" value={"Ajouter Catégorie"} />
+                        <input className={"button"} type="submit" value={"Ajouter Catégorie"}/>
                     </form>
                 </div>
             </div>

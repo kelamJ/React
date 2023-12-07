@@ -1,7 +1,7 @@
 .produit-add {
     box-sizing: border-box;
-    width: 28rem;
-    height: 23rem;
+    width: 34rem;
+    height: 36rem;
     background: rgba(217, 217, 217, 0.58);
     border: 1px solid white;
     box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
@@ -67,13 +67,12 @@ textarea::placeholder {
 }
 
 /*Effet Bouton*/
-
 .button {
     outline: none;
     cursor: pointer;
     border: none;
-    padding: 0.9rem 2rem;
-    margin: 0;
+    padding: 0.7rem 2rem;
+    margin-top: 15px;
     font-family: inherit;
     font-size: inherit;
     position: relative;

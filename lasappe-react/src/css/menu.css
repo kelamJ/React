@@ -2,7 +2,8 @@
     background: rgba(217, 217, 217, 0.58);
     border: 1px solid white;
     box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
-    backdrop-filter: blur(6px)
+    backdrop-filter: blur(6px);
+    margin-bottom: 70px;
 ;}
 
 
@@ -19,6 +20,7 @@ ul {
     animation-duration:1s;
     animation-iteration-count:infinite;
     animation-direction:alternate;
+    text-transform: uppercase;
 }
 
 @keyframes glow{
@@ -33,5 +35,5 @@ a {
 
 .activeLink {
     font-weight: bold;
-    color: #2c3e50;
+    color: #252525;
 }
